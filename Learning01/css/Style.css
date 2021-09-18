@@ -57,7 +57,7 @@
 }
 
 .Portfolio{
-    height: 108vh;
+    height: 116vh;
     width: 100%;
     padding: 3vh 0vh 2vh;
 
@@ -123,6 +123,9 @@
 @media(max-width:1200px){
     .Portfolio{
         margin-top: 40px;
+    }
+    .team{
+        padding: 10vh 0vh 2vh;
     }
 }
 
