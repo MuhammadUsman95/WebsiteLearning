@@ -57,7 +57,7 @@
 }
 
 .Portfolio{
-    height: 116vh;
+    height: 102vh;
     width: 100%;
     padding: 3vh 0vh 2vh;
 
@@ -123,15 +123,18 @@
 @media(max-width:1200px){
     .Portfolio{
         margin-top: 40px;
+        height: 100vh;
     }
     .team{
-        padding: 10vh 0vh 2vh;
+        padding: 4vh 0vh 2vh;
     }
+   
 }
 
 @media(max-width:992px){
     .Portfolio{
         margin-top: 75px;
+        height: 108vh;
     }
 
 }
@@ -140,7 +143,27 @@
     .Portfolio{
         margin-top: 155px;
     }
+    .figure-img {
+        width: 56vh !important;
+        height: 24vh !important;
+    }
+    .Portfolio {
+        margin-top: 26px;
+        height: 105vh;
+    }
+    .service h3 {
+        margin-top: 4vh;
+        font-size: 4vh;
+        font-weight: bold;
+    }
+    .icon-border {
 
+        width: 78px !important; 
+        height: 78px !important;
+    }
+    .fa-3x {
+        font-size: 2em !important;
+    }
 }
 
 @media(max-width:575px){
