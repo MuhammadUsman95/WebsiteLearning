@@ -160,7 +160,7 @@
         </div>
     </section>
 
-    <section Class= 'team'>
+    <!-- <section Class= 'team'>
             <div class="container text-center">
                     <h2 class="WebTeam">Team</h2>
                     <div class="row teamrow">
@@ -194,9 +194,42 @@
                     </div>
                     
 
-    </section>
+    </section> -->
     <footer class="footer">
         <h6 class="text-center">Copy Right @2021 design by Usman</h6>
     </footer>
+<style>
+.mySlides {display:none;}
+</style>
+    <h2 class="w3-center">Manual Slideshow</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="backgroundimage.jpg" style="width:100%">
+  <img class="mySlides" src="2.jpeg" style="width:100%">
+  <img class="mySlides" src="4.jpeg" style="width:100%">
+  <img class="mySlides" src="6.jpeg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
 </body>
 </html>
