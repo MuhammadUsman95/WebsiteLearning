@@ -1,0 +1,19 @@
+		List Of datatypes in C#
+
+integer 
+	number such as 120,345 etc
+Decimal 
+	number such as 3.5,4.5 etc
+Char
+	Single Character such as A,a,N,z
+Bool
+	True or False Value
+String 
+	More than one characters Value Such as john Smith, mark Smith etc
+-----------------------
+
+
+Syntax
+	Datatype Variablename = value
+
+
