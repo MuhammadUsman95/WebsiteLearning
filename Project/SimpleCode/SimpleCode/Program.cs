@@ -16,7 +16,7 @@ namespace SimpleCode
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Simple());
+            Application.Run(new Form2());
         }
     }
 }
