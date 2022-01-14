@@ -33,5 +33,19 @@ namespace SimpleCode
       
             MessageBox.Show(languageName +"Second", "Message Box", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            decimal a = 1.5m;
+            decimal b = 3.9m;
+            decimal c = Add(a,b);
+
+            MessageBox.Show("C: " + c);
+
+        }
+        public decimal Add(decimal a, decimal b)
+        {
+            return  a + b;
+        }
     }
 }
